@@ -49,6 +49,7 @@ print(f'O menor número da lista é {min(num)}')
 print(f'O maior número da lista é {max(num)}')
 '''
 
+'''
 #Ex4
 nomes = []
 idades = []
@@ -65,7 +66,21 @@ for i in range(10):
 print(nomes)
 print(idades)
 print(ni)
+'''
 
+#Ex5
+import random
+ 
+num = []
+ 
+for i in range(1,9,1):
+    n = random.randint(1,50)
+    num.append(n)
+
+print(num)
+numQuantidade = int(input('Ver quantidade do número: '))
+print(f'Quantidade de {numQuantidade} na lista: {num.count(numQuantidade)}')
+ 
 
     
 
