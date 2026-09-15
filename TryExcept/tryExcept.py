@@ -14,15 +14,20 @@ while True:
     except ValueError:
         print('Digite apenas números')
         print('Tente novamente\n')
+
     except ZeroDivisionError:
         print('Denominador deve der DIFERENTE de ZERO')
         print('Tente novamente\n')
+
     except TypeError:
         print('O valor informado é Negativo')
         print('Tente novamente\n')
+
     except Exception:
         print('Ocorreu um erro!\n')
+
     else:
         print(f'Resultado: {result:.2f}')
+        
     finally:
         print('Tchau, Obrigado!')

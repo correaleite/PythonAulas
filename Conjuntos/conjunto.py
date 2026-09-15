@@ -42,6 +42,7 @@ print(nomes)
 #     numeros.add(n)
 # print(numeros)
 
+
 # Método intersection 
 x = {"Louco", "Feliz", "Triste"}
 y = {"Nuvem", "Feliz", "Sol"}
@@ -51,3 +52,15 @@ print(z)
 # Differecence
 z = x.difference(y)
 print(z)
+
+# Repetição de elementos
+A = set()
+while len(A) < 5:
+    try:
+        valor = int(input("Digite um número: "))
+        A.add(valor)
+        if valor < 0:
+                raise TypeError  
+    except ValueError:
+        print("Digite apenas valores inteiros")
+print(A)

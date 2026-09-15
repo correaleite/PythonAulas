@@ -1,0 +1,6 @@
+Olá. Esse é nosso primeiro arquivo
+ola meu nome é kidinho
+Esse texto deve aparecer no final do arquivo
+.Esse novo texto estará grudado no anterior
+.Esse texto deve aparecer no final do arquivo.
+Esse novo texto estará grudado no anterior.

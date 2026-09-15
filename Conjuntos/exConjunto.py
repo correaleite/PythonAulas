@@ -7,7 +7,7 @@ Exe2 - Remover Duplicatas
 Dada uma lista com alguns elementos duplicados, converta a lista em um set para remover duplicatas e depois converta de volta para a lista
 
 Exe3 - Contar elementos únicos
-Dada uma lista com vários eleemntos (alguns duplicados), crie um set a partir desta lista e conte a quantidade de elementos únicos
+Dada uma lista com vários elementos (alguns duplicados), crie um set a partir desta lista e conte a quantidade de elementos únicos
 
 '''
 
@@ -24,7 +24,6 @@ print(conjunto)
 print(list(conjunto))
 
 # EX3
-
 pares = [2, 10, 6, 4, 2, 6]
 conjunto = set(pares)
 print(len(conjunto))
