@@ -2,7 +2,6 @@ lista = []
 
 type(lista)
 
-list
 
 lista = ['Maelle', 3, 3.6]
 print(lista)
