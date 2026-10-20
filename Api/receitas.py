@@ -10,6 +10,8 @@ try:
         ing_busca = input('Ingrediente: ')
 
         resposta_json = resposta.json()
+        # print(resposta_json)
+
 
         lista_receitas = resposta_json['recipes']
 
